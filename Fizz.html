@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i;
+for (i = 0; i < 100; i++) {
+    if(i%5 == 0 && i%3 == 0)
+    document.getElementById("demo").innerHTML += "fizzbuzz" + 
+"<br>";
+else if(i%5 == 0)
+    document.getElementById("demo").innerHTML += "buzz" + 
+"<br>";
+else if(i%3 == 0)
+    document.getElementById("demo").innerHTML += "fizz" + 
+"<br>";
+
+else
+    document.getElementById("demo").innerHTML += i + "<br>";
+}
+</script>
+
+</body>
+</html>
